@@ -1,3 +1,4 @@
+
 jobs:
   build:
     docker:
@@ -14,7 +15,7 @@ jobs:
           name: Run add_numbers script
           command: |
             . venv/bin/activate
-            python add_numbers.py
+            python Add_numbers.py
 
 workflows:
   version: 2
